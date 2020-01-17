@@ -1,10 +1,9 @@
 {
-  "author": "Spotify",
-  "name": "web-api-auth-examples",
-  "description": "Basic examples of the Spotify authorization flows through OAuth 2",
+  "author": "Esther Navarro García",
+  "name": "top-spotify-songs",
+  "description": "Website that uses the Spotify API and OAuth2 in order to display the top songs of a user. This user has to guess which of the two displayed tracks he has listened more to.",
   "version": "0.0.2",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.0",
     "cookie-parser": "1.3.2",
     "cors": "^2.8.4",
     "express": "~4.16.0",

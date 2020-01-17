@@ -178,6 +178,15 @@ svg {
 }
 
 @media (max-width: 500px) {
+
+    #login {
+        margin-bottom: 9em;
+    }
+
+    #login .subtitle {
+        margin-bottom: 3.5em;
+    }
+
     .song img {
         width: 40%;
     }
@@ -194,5 +203,9 @@ svg {
 
     .me p a {
         display: block;
+    }
+
+    .song img:hover {
+        transform: scale(1);
     }
 }

@@ -51,8 +51,6 @@ $(document).ready(function () {
           arrayShuffled = [...songsArray];
           shuffleArray(arrayShuffled);
 
-          console.log(songsArray);
-
           displaySongs();
 
         },
