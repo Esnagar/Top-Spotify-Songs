@@ -33,6 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: auto;
 }
 
 h1 {
@@ -149,7 +150,7 @@ h2 {
 }
 
 .song div {
-    font-size: 1.3em;
+    font-size: calc(12px + 0.5vw);
 }
 
 .song img:hover {

@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Guess your top Spotify songs</title>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+  <script src="/src/handlebars.min.js"></script>
+  <script src="/src/jquery-3.4.1.min.js"></script>
+  <script src="/src/main.js"></script>
   <link rel="stylesheet" type="text/css" href="/css/index.css">
   <link rel="shortcut icon" type="image/png" href="/images/vicky.png"/>
 </head>
@@ -28,13 +28,13 @@
       </div>
     </div>
     <div id="logged">
-      <h2>Which song did you listened more to?</h2>
+      <h2>Which song did you listened the most?</h2>
       <div id="songsContainer">
       </div>
     </div>
     <div class="result">
       <h3>This is your score!</h3>
-      <a href="javascript:history.go(0)" class="button">Try again!</a>
+      <a href="location.reload(true)" class="button">Try again!</a>
     </div>
   </div>
 

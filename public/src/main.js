@@ -50,7 +50,6 @@ $(document).ready(function () {
 
           arrayShuffled = [...songsArray];
           shuffleArray(arrayShuffled);
-
           displaySongs();
 
         },
