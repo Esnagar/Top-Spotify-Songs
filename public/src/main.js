@@ -137,3 +137,7 @@ function checkAnswer(choice) {
 
   }
 }
+
+function reload () {
+  window.location.reload(true);
+}
