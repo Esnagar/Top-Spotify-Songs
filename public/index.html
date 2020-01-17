@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guess your top Spotify songs</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <link rel="shortcut icon" type="image/png" href="/images/vicky.png"/>
+</head>
+
+<body>
+  <div class="container">
+    <div id="login">
+      <h1>Guess which song you've played more times!</h1>
+      <div class="subtitle"><span>💥</span>1 vs 1 battles<span>💥</span></div>
+      <a href="/login" class="button">Log in with Spotify</a>
+      <div class="me"><p>A website by <a target="_blank" href="https://www.linkedin.com/in/esther-navarro-garcía-9721a5183">Esther Navarro</a></p>
+        <div class="links">
+          <a target="_blank" href="https://www.linkedin.com/in/esther-navarro-garcía-9721a5183"><img src="images/linkedin.svg"/></a>
+          <a target="_blank" href="https://github.com/Esnagar"><img src="images/github.svg"/></a>
+          <a target="_blank" href="https://twitter.com/EstherNavarro__"><img src="images/twitter.svg"/></a>
+        </div>
+      </div>
+    </div>
+    <div id="logged">
+      <h2>Which song did you listened more to?</h2>
+      <div id="songsContainer">
+      </div>
+    </div>
+    <div class="result">
+      <h3>This is your score!</h3>
+      <a href="javascript:history.go(0)" class="button">Try again!</a>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
