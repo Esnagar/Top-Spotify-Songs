@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '075ad398cef44f9d9308a99b2460bc34';
 var client_secret = '73ac5692891f401a8c98dd5e8ff46168';
-var redirect_uri = 'http://localhost:8888/callback';
+var redirect_uri = 'https://top-spotify-songs.herokuapp.com/callback';
 
 var generateRandomString = function(length) {
   var text = '';
